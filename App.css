@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.bg-img{
+  width:fit-content;
+  height:350px;
+
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.all-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text-overlay{
+  position: absolute;
+  top: 170px; /* Adjust to your preferred vertical position */
+  left: 470px; /* Adjust to your preferred horizontal position */
+  font-size: 100px; /* Adjust to your preferred font size */
+  color: #e808ac; /* Adjust text color */
+  background-color: rgba(0, 0, 0, 0); /* Adjust background color and opacity */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+}
+
+
+
